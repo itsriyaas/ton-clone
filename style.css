@@ -1,0 +1,140 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading-main{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+#bg-ton-1{
+    background: linear-gradient(to right, #458cfe,  #7dd8fd);
+}
+#bg-ton-2{
+    background: linear-gradient(to right, #12172c,  #393b50);
+}
+.social{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.social p{
+    margin-right: 5px;
+}
+.social a:hover{
+    color: rgb(0, 191, 255);
+}
+#card-1 {
+    background: linear-gradient(80deg, #458CFE 0%, #7DD8FD 100%);
+    border-radius: 30px;
+}
+
+#card-2 {
+    background: linear-gradient(80deg, #6E78FF 0%, #96A6FF 100%);
+    border-radius: 30px;
+}
+@media(max-width:600px){
+  #explore{
+    display: block;
+  }
+  #img-2{
+    margin-top: 28px;
+  }
+  #img-1{
+    margin-top: 24px;
+  }
+}
+#img-2{
+    margin-top: 28px;
+  }
+  #img-1{
+    margin-top: 24px;
+  }
+  /* Basil */
+  .b-first{
+    margin-top: 100px;
+    background-color:  #f7f9fb;
+  }
+  .second-page {
+    height: 100vh;
+  }
+  .company-box {
+    width: 140px;
+    height: 70px;
+    background-color: aliceblue;
+  }
+  .image-section {
+    width: 450px;
+  }
+  .last-box {
+    margin: 64px 0px;
+  }
+  .second-head {
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  @media(max-width:1200px){
+   
+    .second-page {
+      height: auto;
+      padding-bottom: 20px;
+    }
+     
+  }
+  
+  @media(max-width:991px){
+   
+    .image-section {
+      display: none;
+    }
+    .second-box {
+      flex-direction: column;
+    }
+    .company-section {
+      margin: 30px 0px; 
+    }
+    .last-box {
+      margin: 30px 0px;
+    }
+     
+  }
+   
+    
+   
+  @media(max-width:600px){
+    main .main-head {
+      font-size: 37px;
+      width: 450px;
+    }
+    .customer-section {
+      padding: 45px;
+    }
+    /* Salman */
+   /*  #img-1{
+     
+    }
+    #img-2{
+     
+    } */
+    #ver-txt{
+      visibility: hidden;
+      
+    }
+  
+   
+  }
+   
+  @media(max-width:435px){
+     
+    .second-head {
+      font-size: 25px;
+    }
+  }
+   
+  
